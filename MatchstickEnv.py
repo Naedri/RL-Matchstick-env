@@ -1,4 +1,5 @@
-# Classe MatchstickEnv représentant l'environnement d'un jeu d'allumettes. 
+# Classe MatchstickEnv représentant l'environnement d'un jeu d'allumettes.
+# Elle hérite de gym.Env et définit les espaces d'observation et d'action en utilisant les classes spaces.Discrete de gym.
 
 # La méthode reset initialise l'état du jeu à num_matches.
 # La méthode reset retourne cet état. 
